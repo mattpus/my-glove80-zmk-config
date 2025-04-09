@@ -197,7 +197,7 @@
 &kp GRAVE   &kp Q         &kp W           &kp E             &kp R              &kp T                                                                                                        &kp Y   &kp U                 &kp I                  &kp O            &kp P                 &kp BSLH
 &caps_word  &hm LSHIFT A  &hm LEFT_ALT S  &hm LEFT_GUI D    &lt 2 F            &hm LA(LC(LG(LSHFT))) G                                                                                      &kp H   &kp J                 &hm RIGHT_GUI K        &hm RIGHT_ALT L  &hm RSHIFT SEMICOLON  &kp SQT
 &kp LSHIFT  &kp Z         &kp X           &kp C             &kp V              &kp B                    &kp LA(LC(LG(LSHFT)))  &kp LS(LCTRL)  &tog 1      &kp LGUI  &kp RCTRL  &kp RSHFT    &kp N   &kp M                 &kp COMMA              &kp DOT          &kp FSLH              &kp RIGHT_SHIFT
-&magic 8 0  &kp HOME      &kp TILDE       &kp LEFT_BRACKET  &kp RIGHT_BRACKET                           &lt 3 BACKSPACE        &lt 2 ENTER    &kp DELETE  &kp RALT  &kp RET    &lt 5 SPACE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE   &kp RIGHT_BRACE       &kp PG_DN
+&magic 6 0  &kp HOME      &kp TILDE       &kp LEFT_BRACKET  &kp RIGHT_BRACKET                           &lt 3 BACKSPACE        &lt 2 ENTER    &kp DELETE  &kp RALT  &kp RET    &lt 5 SPACE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE   &kp RIGHT_BRACE       &kp PG_DN
             >;
         };
 
@@ -256,28 +256,6 @@
             >;
         };
 
-        layer_8 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_9 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
         magic_layer {
             bindings = <
 &bt BT_CLR   &none            &none            &none            &none                                                                                     &none  &none  &none  &none  &bt BT_CLR_ALL
@@ -285,7 +263,7 @@
 &none        &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG                                                   &none  &none  &none  &none  &none  &none
 &bootloader  &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                                   &none  &none  &none  &none  &none  &bootloader
 &sys_reset   &none            &none            &none            &none            &none            &bt_2  &bt_3  &none         &none  &none  &none  &none  &none  &none  &none  &none  &sys_reset
-&none        &none            &none            &none            &none                             &bt_0  &bt_1  &out OUT_USB  &none  &none  &none         &none  &none  &none  &none  &to 9
+&none        &none            &none            &none            &none                             &bt_0  &bt_1  &out OUT_USB  &none  &none  &none         &none  &none  &none  &none  &to 7
             >;
         };
 
