@@ -103,66 +103,79 @@
         copy {
             bindings = <&kp LG(C)>;
             key-positions = <48 49>;
+            layers = <0 1>;
         };
 
         paste {
             bindings = <&kp LG(V)>;
             key-positions = <49 50>;
+            layers = <0 1>;
         };
 
         space {
             bindings = <&kp SPACE>;
             key-positions = <50 51>;
+            layers = <0 1>;
         };
 
         Esc {
             bindings = <&kp ESCAPE>;
             key-positions = <36 37>;
+            layers = <0 1>;
         };
 
         Tab {
             bindings = <&kp TAB>;
             key-positions = <37 38>;
+            layers = <0 1>;
         };
 
         Exclamation {
             bindings = <&kp EXCLAMATION>;
             key-positions = <24 25>;
+            layers = <0 1>;
         };
 
         At {
             bindings = <&kp AT_SIGN>;
             key-positions = <25 26>;
+            layers = <0 1>;
         };
 
         Quote {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <29 30>;
+            layers = <0 1>;
         };
 
         Cut {
             bindings = <&kp LG(X)>;
             key-positions = <48 50>;
+            layers = <0 1>;
         };
 
         S-Quote {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <30 31>;
+            layers = <0 1>;
         };
 
         Equal {
             bindings = <&kp EQUAL>;
             key-positions = <41 43>;
+            layers = <0 1>;
         };
 
         Dash {
             bindings = <&kp MINUS>;
             key-positions = <41 42>;
+            layers = <0 1>;
         };
 
         UnderScore {
             bindings = <&kp UNDERSCORE>;
             key-positions = <42 43>;
+            layers = <0 1>;
         };
     };
 
