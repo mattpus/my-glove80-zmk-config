@@ -154,7 +154,7 @@
             layers = <0 1>;
         };
 
-        S-Quote {
+        SingleQuote {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <30 31>;
             layers = <0 1>;
